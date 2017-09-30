@@ -1256,7 +1256,6 @@ vendor/lib64/liblistenjni.so|4814b09f1d0c8d17516d1c6df7687b992311a884
 vendor/lib64/liblistensoundmodel2.so|13b37cbd54943834676872f534e6a51505bbcea7
 
 # Media - from daisy-user-10-QKQ1.191002.002-V11.0.18.0.QDLMIXM-release-keys
-vendor/lib/libI420colorconvert.so|0dfd4d0e49f4250e98e781483048a296a679e05e
 vendor/lib/libmmosal_proprietary.so|4b0788590e1ecfccd3b20b3181a4add528acb2b6
 vendor/lib/libOmxAacDec.so|55772a6d0cf3e6a5a2c32348fd7096b8737d490b
 vendor/lib/libOmxAlacDec.so|adca064b15a7d545075af6f5222db45dec8202b5
@@ -1272,7 +1271,6 @@ vendor/lib/libOmxWmaDec.so|c3da756ae14234ae8e56cbc0b32249fbd4c8746a
 -vendor/lib/libgpustats.so|75fc8f58b071f3c27d708010e1b40eafba091a14
 vendor/lib/libmm-color-convertor.so|7c74d36d42dc79fc58afe0f4323b76cc1297d36e
 vendor/lib/libvqzip.so|24e5eb30e5a2cdb544c8688d81d7cc75a1d85eaf
-vendor/lib64/libI420colorconvert.so|296987a0fc833ead9db3640ef2de42d7126782fb
 vendor/lib64/libOmxAacDec.so|0f0f3c9d8f285318a1d229c8ebc290810782d21c
 vendor/lib64/libOmxAlacDec.so|a3783f6cce2da0a3a2043407fa7c12c8c78e442e
 vendor/lib64/libOmxAlacDecSw.so|971b09afca162ed63cd6447cdc4ab66e1b58391b
@@ -1643,4 +1641,3 @@ vendor/lib64/libtime_genoff.so|06df52867790cdbbcc674a3a28d7ad7c8cc161ac
 # Voice - from daisy-user-10-QKQ1.191002.002-V11.0.18.0.QDLMIXM-release-keys
 vendor/lib/vendor.qti.voiceprint@1.0.so|b70091c7b738394468b7d732df283d23a3975f46
 vendor/lib64/vendor.qti.voiceprint@1.0.so|aeca80d0859dd1084b4a6585779d79b48ae9aa76
-

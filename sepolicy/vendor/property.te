@@ -4,3 +4,6 @@ type hal_sensor_default, property_type;
 
 # Dirac
 vendor_public_prop(dirac_prop);
+
+# Power HAL
+type power_prop, property_type;

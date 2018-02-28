@@ -76,7 +76,6 @@ ro.control_privapp_permissions=log
 ro.vendor.qti.va_aosp.support=1
 
 # Radio
-rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 persist.rild.nitz_plmn=
 persist.rild.nitz_long_ons_0=
 persist.rild.nitz_long_ons_1=

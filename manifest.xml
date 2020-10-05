@@ -328,6 +328,11 @@
         <transport>hwbinder</transport>
         <fqname>@1.0::IImsFactory/default</fqname>
         <fqname>@1.1::IImsFactory/default</fqname>
+        <version>2.2</version>
+        <interface>
+            <name>IFactory</name>
+            <instance>default</instance>
+        </interface>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.esepowermanager</name>

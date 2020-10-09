@@ -123,4 +123,6 @@ void vendor_load_properties()
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
 
+    // SafetyNet Workaround
+    property_override("ro.boot.verifiedbootstate", "green");
 }

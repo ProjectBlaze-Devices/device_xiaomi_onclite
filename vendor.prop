@@ -66,6 +66,11 @@ persist.dbg.wfc_avail_ovr=1
 ro.hardware.keystore_desede=true
 
 # Media
+<<<<<<< HEAD
+=======
+debug.media.transcoding.codec_max_operating_rate_720P=240
+debug.media.transcoding.codec_max_operating_rate_1080P=120
+>>>>>>> da684b7... onclite: Update the transcoding operating rate
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 vendor.vidc.disable.split.mode=1

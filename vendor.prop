@@ -90,3 +90,6 @@ persist.vendor.radio.start_ota_daemon=1
 persist.vendor.radio.sw_mbn_update=0
 ro.telephony.iwlan_operation_mode=legacy
 
+# SoC
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=MSM8953

@@ -433,4 +433,7 @@
 
     <!-- Flag specifying whether ViLTE is available on device -->
     <bool name="config_device_vilte_available">true</bool>
+
+    <!-- Specify if the fingerprint hardware support gestures-->
+    <bool name="config_fingerprintSupportsGestures">true</bool>
 </resources>

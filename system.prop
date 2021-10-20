@@ -34,7 +34,6 @@ vendor.mm.enable.qcom_parser=1048575
 vendor.vidc.dec.downscalar_height=1088
 vendor.vidc.dec.downscalar_width=1920
 vendor.vidc.enc.disable_bframes=1
-vendor.video.disable.ubwc=1
 
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1

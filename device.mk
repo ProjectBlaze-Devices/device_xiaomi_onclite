@@ -188,7 +188,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libwifi-hal-ctrl \
     android.hardware.gnss@1.1.vendor \
-    android.hardware.gnss@2.1.vendor
+    android.hardware.gnss@2.1.vendor \
+    android.hardware.gnss@2.0.vendor
 
 # Gatekeeper
 PRODUCT_PACKAGES += \

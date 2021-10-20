@@ -26,6 +26,13 @@ vendor.qcom.bluetooth.soc=pronto
 # BPF
 ro.kernel.ebpf.supported=true
 
+# Camera
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi,com.longcheertel.cit
+vendor.camera.lowpower.record.enable=1
+
+# Charger
+ro.charger.enable_suspend=true
+
 # Dex2oat
 pm.dexopt.boot=verify
 pm.dexopt.first-boot=verify
@@ -48,6 +55,7 @@ ro.frp.pst=/dev/block/bootdevice/by-name/config
 
 # Graphics
 ro.opengles.version=196610
+vendor.display.disable_skip_validate=1
 
 # IMS
 persist.dbg.volte_avail_ovr=1
@@ -67,5 +75,16 @@ vendor.vidc.enc.disable.pq=true
 ro.vendor.extension_library=libqti-perfd-client.so
 
 # Radio
+persist.radio.multisim.config=dsds
 persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.mt_sms_ack=30
+persist.vendor.radio.apm_sim_not_pwdn=1
+persist.vendor.radio.custom_ecc=1
+persist.vendor.radio.data_con_rprt=1
+persist.vendor.radio.hw_mbn_update=0
+persist.vendor.radio.rat_on=combine
+persist.vendor.radio.redir_party_num=1
+persist.vendor.radio.report_codec=1
+persist.vendor.radio.sib16_support=1
+persist.vendor.radio.start_ota_daemon=1
+persist.vendor.radio.sw_mbn_update=0

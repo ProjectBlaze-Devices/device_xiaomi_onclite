@@ -71,6 +71,7 @@ dalvik.vm.systemuicompilerfilter=speed
 
 # Display post-processing
 ro.config.avoid_gfx_accel=true
+debug.sf.enable_gl_backpressure=1
 ro.vendor.display.cabl=0
 ro.vendor.display.sensortype=2
 debug.renderengine.backend=skiaglthreaded

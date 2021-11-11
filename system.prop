@@ -55,3 +55,6 @@ ril.subscription.types=NV,RUIM
 rild.libargs=-d /dev/smd0
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
+
+# WFD
+persist.debug.wfd.enable=1

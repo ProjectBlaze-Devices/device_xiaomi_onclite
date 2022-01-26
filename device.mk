@@ -382,6 +382,10 @@ PRODUCT_PACKAGES += \
     camera.msm8953_shim \
     libshim_dpmframework
 
+# System
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.binary_xml=false
+
 # Trust HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service

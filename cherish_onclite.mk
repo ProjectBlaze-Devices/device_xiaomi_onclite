@@ -31,8 +31,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-PRODUCT_GENERIC_PROPERTISE += \
-    ro.cherish.maintainer=Jaxk
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=ᴊᴀᴄᴋᴛʜᴇʀɪᴘᴘᴇʀ
 
 # CherishOS Official
 CHERISH_BUILD_TYPE := OFFICIAL

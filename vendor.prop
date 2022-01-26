@@ -34,7 +34,6 @@ vendor.camera.lowpower.record.enable=1
 ro.charger.enable_suspend=true
 
 # Dex2oat
-pm.dexopt.boot=verify
 pm.dexopt.first-boot=verify
 pm.dexopt.install=speed-profile
 dalvik.vm.image-dex2oat-filter=speed
@@ -66,15 +65,9 @@ persist.dbg.wfc_avail_ovr=1
 ro.hardware.keystore_desede=true
 
 # Media
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 debug.media.transcoding.codec_max_operating_rate_720P=240
 debug.media.transcoding.codec_max_operating_rate_1080P=120
->>>>>>> da684b7... onclite: Update the transcoding operating rate
-=======
 debug.media.transcoding.codec_max_operating_rate=120
->>>>>>> f4548b2... onclite: Add property for maximum operating rate
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 vendor.vidc.disable.split.mode=1

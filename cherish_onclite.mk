@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 
 # Inherit some common CherishOS stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions.

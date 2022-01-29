@@ -19,9 +19,6 @@ persist.vendor.cne.feature=1
 persist.vendor.data.mode=concurrent
 ro.vendor.use_data_netmgrd=true
 
-# Disable vsync for cpu rendered apps
-debug.cpurend.vsync=false
-
 # Graphics
 debug.hwui.use_buffer_age=false
 debug.sf.disable_backpressure=1

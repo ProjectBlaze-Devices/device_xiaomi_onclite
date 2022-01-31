@@ -75,7 +75,7 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 # ANT
 PRODUCT_PACKAGES += \
     AntHalService \
-    
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
@@ -142,6 +142,14 @@ PRODUCT_COPY_FILES += \
 
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
+
+# DeviceSettings
+PRODUCT_PACKAGES += \
+   DeviceSettings
+
+# DeviceDoze
+PRODUCT_PACKAGES += \
+    DeviceDoze
 
 # Display
 PRODUCT_PACKAGES += \

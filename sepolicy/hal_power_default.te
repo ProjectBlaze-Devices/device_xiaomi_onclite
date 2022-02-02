@@ -1,3 +1,6 @@
 # Allow to write in /dev/input/event2
 allow hal_power_default input_device:dir search;
 allow hal_power_default input_device:chr_file rw_file_perms;
+
+# Set scheduling info for system_server (for adpf)
+allow hal_power_default system_server:process setsched;

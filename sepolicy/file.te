@@ -1,3 +1,6 @@
+# Battery
+type sysfs_battery_supply, fs_type, sysfs_type;
+
 # Boot reason
 type proc_boot_reason, fs_type, proc_type;
 

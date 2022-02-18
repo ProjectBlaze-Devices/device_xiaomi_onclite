@@ -29,6 +29,7 @@ ro.kernel.ebpf.supported=true
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi,com.longcheertel.cit
 vendor.camera.lowpower.record.enable=1
+persist.vendor.camera.perflock.enable=0
 
 # Charger
 ro.charger.enable_suspend=true

@@ -205,5 +205,7 @@ WIFI_DRIVER_FW_PATH_STA := "sta"
 WIFI_AVOID_IFACE_RESET_MAC_CHANGE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+CONFIG_ACS := true
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/onclite/BoardConfigVendor.mk

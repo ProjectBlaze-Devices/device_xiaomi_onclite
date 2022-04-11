@@ -62,6 +62,9 @@ ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
 persist.radio.add_power_save=1
 
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
+
 # WFD
 persist.debug.wfd.enable=1
 

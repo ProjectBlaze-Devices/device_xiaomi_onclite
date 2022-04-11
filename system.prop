@@ -38,6 +38,11 @@ ro.surface_flinger.max_virtual_display_dimension=4096
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 
+# Iorap
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
+vendor.iop.enable_prefetch_ofr=1
+
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.mm.enable.qcom_parser=1048575

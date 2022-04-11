@@ -19,6 +19,7 @@ $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 BLAZE_BUILD_TYPE := OFFICIAL
 BLAZE_MAINTAINER := Aditya&Ganesh
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USE_PIXEL_CHARGER := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 720

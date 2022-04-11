@@ -456,4 +456,5 @@ TARGET_VNDK_USE_CORE_VARIANT := true
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
-    SystemUI
+    SystemUI \
+    NexusLauncherRelease

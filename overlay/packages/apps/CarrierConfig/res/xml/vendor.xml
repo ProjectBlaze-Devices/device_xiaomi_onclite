@@ -2172,4 +2172,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <item value="3,11,9,10,15" />
         </string-array>
     </carrier_config>
+
+    <carrier_config>
+        <boolean name="show_lte_plus_for_lte_data_icon_bool" value="true"/>
+    </carrier_config>
 </carrier_config_list>

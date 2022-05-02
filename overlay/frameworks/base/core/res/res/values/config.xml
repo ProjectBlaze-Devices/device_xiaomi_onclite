@@ -430,4 +430,7 @@
 
     <!-- Whether device supports gaming mode profiles -->
     <bool name="config_gamingmode_performance">true</bool>
+
+    <!-- Flag specifying whether ViLTE is available on device -->
+    <bool name="config_device_vilte_available">true</bool>
 </resources>

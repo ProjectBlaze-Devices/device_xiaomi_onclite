@@ -18,7 +18,7 @@ $(call inherit-product, vendor/xiaomi/onclite/onclite-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-cherish
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
@@ -124,8 +124,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     libgui_vendor \
-    libstdc++.vendor \
-    CameraGo
+    libstdc++.vendor
 
 # Component overrides
 PRODUCT_COPY_FILES += \
@@ -344,10 +343,6 @@ PRODUCT_PACKAGES += \
     init.qcom.bt.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh
-
-# Remove unwanted packages
-PRODUCT_PACKAGES += \
-    RemovePackages
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \

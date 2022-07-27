@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_onclite.mk
+    $(LOCAL_DIR)/lineage_onclite.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_onclite-user \
-    cherish_onclite-userdebug \
-    cherish_onclite-eng
+    lineage_onclite-user \
+    lineage_onclite-userdebug \
+    lineage_onclite-eng

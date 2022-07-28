@@ -23,6 +23,7 @@ ro.vendor.use_data_netmgrd=true
 debug.hwui.use_buffer_age=false
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=0
+debug.sdm.support_writeback=0
 debug.sf.hw=0
 debug.sf.latch_unsignaled=0
 persist.demo.hdmirotationlock=false

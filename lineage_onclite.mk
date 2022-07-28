@@ -41,8 +41,3 @@ TARGET_BUILD_GRAPHENEOS_CAMERA := true
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# disable/enable blur support
-TARGET_ENABLE_BLUR := true
-
-# Quick tap feature
-TARGET_SUPPORTS_QUICK_TAP := true

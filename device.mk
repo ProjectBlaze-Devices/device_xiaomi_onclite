@@ -330,6 +330,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
 
+# Radio
+PRODUCT_PACKAGES += \
+    libavservices_minijail \
+    libavservices_minijail.vendor
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \

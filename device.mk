@@ -124,6 +124,7 @@ PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
+    android.frameworks.sensorservice@1.0.vendor \
     libgui_vendor \
     libstdc++ \
     libstdc++.vendor

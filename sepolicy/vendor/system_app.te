@@ -16,3 +16,6 @@ allow system_app proc_pagetypeinfo:file { read };
 allow system_app proc_vmallocinfo:file { read };
 allow system_app sysfs_zram:dir { search };
 allow system_app zygote:unix_stream_socket { getopt };
+
+# allow system apps to read battery status
+r_dir_file(system_app, sysfs_battery_supply)

@@ -11,3 +11,8 @@ allow system_app sysfs_thermal:file rw_file_perms;
 
 get_prop(system_app, system_prop);
 set_prop(system_app, system_prop);
+
+allow system_app proc_pagetypeinfo:file { read };
+allow system_app proc_vmallocinfo:file { read };
+allow system_app sysfs_zram:dir { search };
+allow system_app zygote:unix_stream_socket { getopt };

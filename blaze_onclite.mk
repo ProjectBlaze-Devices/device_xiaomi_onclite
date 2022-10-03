@@ -17,7 +17,7 @@ $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 # Blaze Official Stuff
 BLAZE_BUILD_TYPE := OFFICIAL
-BLAZE_MAINTAINER := Aditya&Ganesh
+BLAZE_MAINTAINER := Aditya-&-Abhinav
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true
 TARGET_SUPPORTS_BLUR := true

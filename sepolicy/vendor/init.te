@@ -2,7 +2,7 @@ allow init proc_boot_reason:file r_file_perms;
 
 allow init property_type:file { append create getattr map open read relabelto rename setattr unlink write };
 
-#dolby
+# Dolby
 allow init vendor_data_file:file lock;
 allow init hal_audio_default:binder call;
 allow init platform_app:binder call;

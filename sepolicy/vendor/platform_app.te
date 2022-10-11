@@ -1,2 +1,7 @@
 allow platform_app audio_config_prop:file { read };
 allow platform_app zygote:unix_stream_socket { getopt };
+
+#Dolby
+allow platform_app hal_dms_hwservice:hwservice_manager find;
+allow platform_app hal_dms_default:binder { call transfer };
+allow platform_app sysfs_kgsl:lnk_file read;

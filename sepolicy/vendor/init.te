@@ -1,1 +1,6 @@
 allow init proc_boot_reason:file r_file_perms;
+
+#dolby
+allow init vendor_data_file:file lock;
+allow init hal_audio_default:binder call;
+allow init platform_app:binder call;

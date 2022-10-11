@@ -101,6 +101,8 @@ persist.radio.rat_on=combine
 persist.radio.data_ltd_sys_ind=1
 persist.radio.data_con_rprt=1
 persist.radio.calls.on.ims=1
+persist.radio.VT_ENABLE=1
+persist.radio.aosp_usr_pref_sel=true
 
 # Keystore
 ro.hardware.keystore_desede=true
@@ -118,12 +120,17 @@ ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf.scroll_opt=true
 
 # Radio
+vendor.rild.libargs=-d /dev/smd0
+vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
+vendor.service.qti.ims.enabled=1
 persist.radio.multisim.config=dsds
 persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.mt_sms_ack=30
 persist.vendor.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.custom_ecc=1
 persist.vendor.radio.data_con_rprt=1
+persist.vendor.radio.enableadvancedscan=false
+persist.vendor.radio.multisim_switch_support=true
 persist.vendor.radio.hw_mbn_update=0
 persist.vendor.radio.rat_on=combine
 persist.vendor.radio.redir_party_num=1
@@ -133,6 +140,8 @@ persist.vendor.radio.start_ota_daemon=1
 persist.vendor.radio.sw_mbn_update=0
 ro.telephony.iwlan_operation_mode=legacy
 persist.vendor.qti.telephony.vt_cam_interface=2
+persist.vendor.vilte_support=1
+persist.vendor.vt.supported=1
 
 # SoC
 ro.soc.manufacturer=Qualcomm

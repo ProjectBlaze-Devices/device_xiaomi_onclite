@@ -102,8 +102,8 @@ void vendor_load_properties()
         heapstartsize = "8m";
         heapgrowthlimit = "192m";
         heapsize = "512m";
-        heaptargetutilization = "0.75";
-        heapminfree = "2m";
+        heaptargetutilization = "0.7";
+        heapminfree = "4m";
         heapmaxfree = "8m";
     } else {
         // Set for 2GB RAM

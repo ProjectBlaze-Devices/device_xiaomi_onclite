@@ -11,6 +11,13 @@ bluetooth.device.class_of_device=90,2,12
 # Camera
 persist.vendor.camera.expose.aux=1
 vidc.enc.dcvs.extra-buff-count=2
+persist.camera.HAL3.enabled=1
+persist.camera.eis.enabled=1
+persist.camera.ois.enabled=1
+persist.camera.is_mode=4
+persist.camera.stats.test=5
+camera.HAL3.enabled=1
+
 
 # Charger
 ro.charger.disable_init_blank=true

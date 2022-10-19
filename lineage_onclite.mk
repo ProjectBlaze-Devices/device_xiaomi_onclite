@@ -44,3 +44,5 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Allow usage of custom binary linker (LD), default is false
 TARGET_KERNEL_OPTIONAL_LD := true
 
+# AudioFx
+TARGET_EXCLUDES_AUDIOFX := true

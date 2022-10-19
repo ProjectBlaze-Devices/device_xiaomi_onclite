@@ -50,7 +50,7 @@ persist.vendor.camera.perflock.enable=0
 ro.charger.enable_suspend=true
 
 # Dex2oat
-pm.dexopt.first-boot=verify
+pm.dexopt.first-boot=quicken
 pm.dexopt.install=speed-profile
 dalvik.vm.image-dex2oat-filter=speed
 dalvik.vm.image-dex2oat-threads=8

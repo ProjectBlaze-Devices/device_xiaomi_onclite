@@ -41,3 +41,6 @@ TARGET_BUILD_GRAPHENEOS_CAMERA := true
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# Allow usage of custom binary linker (LD), default is false
+TARGET_KERNEL_OPTIONAL_LD := true
+

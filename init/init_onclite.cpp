@@ -93,7 +93,7 @@ void vendor_load_properties()
         heapstartsize = "8m";
         heapgrowthlimit = "256m";
         heapsize = "512m";
-        heaptargetutilization = "0.6";
+        heaptargetutilization = "0.7";
         heapminfree = "4m";
         heapmaxfree = "16m";
     } else if (sys.totalram > 2048ull * 1024 * 1024) {

@@ -1,2 +1,0 @@
-allow gmscore_app anr_data_file:dir { read };
-allow gmscore_app zygote:unix_stream_socket { getopt };

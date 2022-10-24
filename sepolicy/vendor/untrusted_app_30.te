@@ -1,1 +1,2 @@
 allow untrusted_app_30 zygote:unix_stream_socket { getopt };
+allow untrusted_app_30 app_data_file:file { execute };

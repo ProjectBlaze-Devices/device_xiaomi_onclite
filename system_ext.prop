@@ -1,7 +1,13 @@
 # DPM
-persist.vendor.dpm.feature=1
+persist.vendor.dpm.feature=11
 persist.vendor.dpm.loglevel=0
 persist.vendor.dpmhalservice.enable=1
 
 # MWQEM
 persist.vendor.mwqem.enable=1
+
+# Telephony
+# Disable handling audio direction changes on IMS calls.
+ro.telephony.handle_audio_direction_changes_between_call_state_changes=false
+
+

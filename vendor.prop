@@ -68,6 +68,7 @@ dalvik.vm.dex2oat64.enabled=true
 ro.vendor.display.cabl=0
 ro.vendor.display.sensortype=2
 debug.renderengine.backend=skiaglthreaded
+debug.cpurend.vsync=false
 
 # DRM
 drm.service.enabled=true

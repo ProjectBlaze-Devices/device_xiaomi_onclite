@@ -1,1 +1,4 @@
+allow mediacodec default_prop:file { open };
 allow mediacodec default_prop:file { read };
+allow mediacodec default_prop:file { getattr };
+

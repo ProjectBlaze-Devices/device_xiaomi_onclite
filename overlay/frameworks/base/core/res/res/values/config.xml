@@ -446,4 +446,9 @@
 
     <!-- Whether to cancel fingerprint operation if not idle -->
     <bool name="config_fpCancelIfNotIdle">true</bool>
+    <!-- Minimum velocity to initiate a fling, as measured in dips per second. -->
+    <dimen name="config_viewMinFlingVelocity">160dp</dimen>
+
+    <!-- Maximum velocity to initiate a fling, as measured in dips per second. -->
+    <dimen name="config_viewMaxFlingVelocity">20000dp</dimen>
 </resources>

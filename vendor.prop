@@ -50,7 +50,7 @@ persist.vendor.camera.eis.enabled=1
 persist.vendor.camera.ois.enabled=1
 persist.vendor.camera.is_mode=4
 persist.vendor.camera.stats.test=5
-
+persist.vendor.camera.perflock.enable=0
 
 # Charger
 ro.charger.enable_suspend=true

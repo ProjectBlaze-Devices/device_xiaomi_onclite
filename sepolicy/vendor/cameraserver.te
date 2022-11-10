@@ -1,0 +1,2 @@
+allow cameraserver property_socket:sock_file { write };
+allow cameraserver vendor_default_prop:file { read };

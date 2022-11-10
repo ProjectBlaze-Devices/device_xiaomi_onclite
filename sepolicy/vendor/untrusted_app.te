@@ -1,1 +1,3 @@
 allow untrusted_app zygote:unix_stream_socket { getopt };
+allow untrusted_app mnt_sdcard_file:lnk_file { read };
+allow untrusted_app proc_zoneinfo:file { read };

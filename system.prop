@@ -124,3 +124,6 @@ pm.sleep_mode=1
 # System
 persist.sys.binary_xml=false
 
+#Whitelisting the below packages
+persist.vendor.camera.privapp.list=com.google.android.apps.cameralite
+persist.camera.privapp.list=com.google.android.apps.cameralite

@@ -92,6 +92,7 @@ ril.subscription.types=NV,RUIM
 rild.libargs=-d /dev/smd0
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
+ro.telephony.block_binder_thread_on_incoming_calls=false
 
 # set cutoff voltage to 3400mV
 ro.cutoff_voltage_mv=3400

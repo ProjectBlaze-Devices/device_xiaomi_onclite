@@ -92,6 +92,14 @@ ro.opengles.version=196610
 vendor.display.disable_skip_validate=1
 vendor.display.disable_excl_rect_partial_fb=1
 debug.sf.auto_latch_unsignaled=true
+debug.sf.use_phase_offsets_as_durations=1
+debug.sf.late.sf.duration=20000000
+debug.sf.late.app.duration=15000000
+debug.sf.early.sf.duration=20000000
+debug.sf.early.app.duration=15000000
+debug.sf.earlyGl.sf.duration=20000000
+debug.sf.earlyGl.app.duration=15000000
+debug.sf.hwc.min.duration=10000000
 
 # IMS
 persist.dbg.ims_volte_enable=1

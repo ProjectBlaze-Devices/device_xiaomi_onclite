@@ -13,7 +13,3 @@ allow platform_app sysfs_kgsl:file { getattr };
 allow platform_app audio_config_prop:file { read };
 allow platform_app zygote:unix_stream_socket { getopt };
 
-# System Info
-allow platform_app vendor_sysfs_battery_supply:dir search;
-allow platform_app vendor_sysfs_battery_supply:file r_file_perms;
-allow platform_app vendor_sysfs_kgsl:file r_file_perms;

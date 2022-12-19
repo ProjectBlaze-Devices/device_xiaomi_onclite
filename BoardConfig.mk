@@ -22,15 +22,12 @@ TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := generic
-
 TARGET_2ND_ARCH := arm
 TARGET_2ND_ARCH_VARIANT := armv8-a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
-
 TARGET_BOARD_PLATFORM := msm8953
-
 TARGET_BOARD_SUFFIX := _64
 
 # Build broken
@@ -55,7 +52,8 @@ BOARD_KERNEL_CMDLINE := \
 	lpm_levels.sleep_disabled=1 \
 	androidboot.bootdevice=7824900.sdhci \
 	androidboot.usbconfigfs=true \
-	loop.max_part=7
+	loop.max_part=7 \
+	kpti=off 
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_BOOTIMG_HEADER_VERSION := 1
@@ -122,7 +120,6 @@ TARGET_USES_ION := true
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
 TARGET_USES_VULKAN := true
-
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 # DRM
@@ -214,7 +211,6 @@ WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
 WIFI_AVOID_IFACE_RESET_MAC_CHANGE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
-
 CONFIG_ACS := true
 
 # Inherit from the proprietary version

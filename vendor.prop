@@ -37,6 +37,9 @@ bluetooth.profile.pan.panu.enabled=true
 bluetooth.profile.pbap.server.enabled=true
 bluetooth.profile.sap.server.enabled=true
 
+# Cached app compaction
+persist.device_config.activity_manager.use_compaction=true
+
 # Chipset
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=MSM8953

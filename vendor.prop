@@ -40,6 +40,9 @@ bluetooth.profile.sap.server.enabled=true
 # BPF
 ro.kernel.ebpf.supported=true
 
+# Cached app compaction
+persist.device_config.activity_manager.use_compaction=true
+
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi,com.longcheertel.cit
 vendor.camera.lowpower.record.enable=1

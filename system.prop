@@ -41,7 +41,6 @@ ro.surface_flinger.running_without_sync_framework=true
 ro.config.dha_tunnable=1
 
 # Graphics
-debug.hwui.use_buffer_age=false
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=0
 debug.sdm.support_writeback=0

@@ -75,6 +75,9 @@ dalvik.vm.dex2oat64.enabled=true
 # Display post-processing
 ro.vendor.display.cabl=0
 ro.vendor.display.sensortype=2
+debug.renderengine.backend=skiaglthreaded
+debug.cpurend.vsync=false
+debug.hwui.renderer=skiagl
 
 # Dirac
 ro.audio.soundfx.dirac=true

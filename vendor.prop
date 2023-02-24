@@ -97,16 +97,6 @@ ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 ro.opengles.version=196610
 vendor.display.disable_skip_validate=1
 
-#go_defaults
-ro.config.low_ram=false
-pm.dexopt.downgrade_after_inactive_days=10
-pm.dexopt.shared=quicken
-ro.lmk.critical_upgrade=true
-ro.lmk.upgrade_pressure=40
-ro.lmk.downgrade_pressure=60
-ro.lmk.kill_heaviest_task=false
-ro.statsd.enable=false
-
 # IMS
 persist.dbg.ims_volte_enable=1
 persist.dbg.volte_avail_ovr=1

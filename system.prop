@@ -51,6 +51,7 @@ ro.surface_flinger.max_virtual_display_dimension=4096
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 debug.sf.enable_transaction_tracing=false
+debug.sf.predict_hwc_composition_strategy=0
 
 # LMK tuning
 ro.lmk.filecache_min_kb=153600

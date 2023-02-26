@@ -40,6 +40,7 @@ ro.surface_flinger.running_without_sync_framework=true
 ro.config.dha_tunnable=1
 
 # Graphics
+debug.sf.enable_transaction_tracing=false
 debug.sf.disable_backpressure=1
 debug.sf.early.sf.duration=16000000
 debug.sf.early.app.duration=16500000

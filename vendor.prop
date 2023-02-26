@@ -80,6 +80,7 @@ debug.cpurend.vsync=false
 debug.hwui.renderer=skiagl
 vendor.display.disable_metadata_dynamic_fps=1
 vendor.display.perf_hint_window=50
+vendor.display.disable_partial_split=1
 
 # Dirac
 ro.audio.soundfx.dirac=true

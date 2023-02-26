@@ -123,4 +123,7 @@ void vendor_load_properties()
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
 
+    // Override ro.control_privapp_permissions
+    property_override("ro.control_privapp_permissions", "log");
+
 }

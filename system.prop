@@ -36,6 +36,10 @@ ro.surface_flinger.enable_frame_rate_override=true
 ro.surface_flinger.start_graphics_allocator_service=true
 ro.surface_flinger.running_without_sync_framework=true
 
+# Disable media transcoding
+persist.sys.fuse.transcode_user_control=true
+persist.sys.fuse.transcode_enabled=false
+
 # DHA Tunning
 ro.config.dha_tunnable=1
 

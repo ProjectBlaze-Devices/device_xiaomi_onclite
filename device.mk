@@ -78,6 +78,9 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 PRODUCT_PACKAGES += \
     AntHalService
 
+# APEX
+PRODUCT_PRODUCT_PROPERTIES += ro.apex.updatable=false
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \

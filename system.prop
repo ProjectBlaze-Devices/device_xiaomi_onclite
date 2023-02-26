@@ -39,6 +39,10 @@ ro.surface_flinger.running_without_sync_framework=true
 # Disable MTE Async for system server
 arm64.memtag.process.system_server=off
 
+# Disable media transcoding
+persist.sys.fuse.transcode_user_control=true
+persist.sys.fuse.transcode_enabled=false
+
 # DHA Tunning
 ro.config.dha_tunnable=1
 

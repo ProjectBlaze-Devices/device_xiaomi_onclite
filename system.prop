@@ -42,6 +42,7 @@ ro.config.dha_tunnable=1
 # Graphics
 debug.sf.enable_transaction_tracing=false
 debug.sf.predict_hwc_composition_strategy=0
+debug.sf.disable_client_composition_cache=1
 debug.sf.disable_backpressure=1
 debug.sf.early.sf.duration=16000000
 debug.sf.early.app.duration=16500000

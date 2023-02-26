@@ -36,6 +36,9 @@ ro.surface_flinger.enable_frame_rate_override=true
 ro.surface_flinger.start_graphics_allocator_service=true
 ro.surface_flinger.running_without_sync_framework=true
 
+# Disable MTE Async for system server
+arm64.memtag.process.system_server=off
+
 # DHA Tunning
 ro.config.dha_tunnable=1
 

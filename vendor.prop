@@ -78,6 +78,7 @@ ro.vendor.display.sensortype=2
 debug.renderengine.backend=skiaglthreaded
 debug.cpurend.vsync=false
 debug.hwui.renderer=skiagl
+vendor.display.disable_metadata_dynamic_fps=1
 
 # Dirac
 ro.audio.soundfx.dirac=true

@@ -219,6 +219,14 @@ vendor/lib/libvidhance.so
 vendor/lib/libvidhance_gyro.so
 vendor/lib/mibokeh_632_opencl.bin
 vendor/lib/libstdc++.so
+vendor/lib/libmmcamera_ubifocus_lib.so
+vandor/lib/libmmcamera_sw_tnr.so
+vendor/lib/libchromaflash.so
+vendor/lib/libllvd_smore.so
+vendor/lib/liboptizoom.so
+vendor/lib/libseemore.so
+vendor/lib/libtrueportrait.so
+vendor/lib64/libtrueportrait.so
 vendor/lib64/libbase64.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so

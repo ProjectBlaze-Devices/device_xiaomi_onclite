@@ -2301,4 +2301,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <item value="3,11,9,10,15" />
         </string-array>
     </carrier_config>
+
+    <carrier_config mcc="510" mnc="01">
+        <boolean name="carrier_volte_available_bool" value="true"/>
+    </carrier_config>
+    <carrier_config mcc="510" mnc="11">
+        <boolean name="carrier_volte_available_bool" value="true"/>
+    </carrier_config>
 </carrier_config_list>

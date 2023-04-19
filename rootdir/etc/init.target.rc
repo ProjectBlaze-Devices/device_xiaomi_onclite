@@ -209,6 +209,9 @@ on boot
     chmod 0664 /dev/cpuset/camera-daemon/tasks
     chown system system /sys/kernel/hbtp/display_pwr
 
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
+
 # access permission for DT2W
     chown system system /dev/input/event2
 

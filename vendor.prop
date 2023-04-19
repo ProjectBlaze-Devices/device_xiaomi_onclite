@@ -108,6 +108,7 @@ debug.sf.early.app.duration=15000000
 debug.sf.earlyGl.sf.duration=20000000
 debug.sf.earlyGl.app.duration=15000000
 debug.sf.hwc.min.duration=10000000
+debug.sf.predict_hwc_composition_strategy=0
 
 # IMS
 persist.dbg.ims_volte_enable=1

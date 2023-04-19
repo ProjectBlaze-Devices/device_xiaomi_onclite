@@ -294,6 +294,8 @@
         <item>/system/bin/surfaceflinger</item>
         <item>/apex/com.android.art/javalib/core-oj.jar</item>
         <item>/apex/com.android.art/javalib/core-libart.jar</item>
+        <item>"/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk"</item>
+        <item>"/system_ext/priv-app/SystemUIGoogle/oat/arm64/SystemUIGoogle.odex"</item>
     </string-array>
 
     <!-- Flag indicating whether we should enable smart battery. -->

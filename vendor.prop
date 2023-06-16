@@ -84,6 +84,9 @@ drm.service.enabled=true
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # Fling Velocity
 ro.min.fling_velocity=160
 ro.max.fling_velocity=20000

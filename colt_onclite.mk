@@ -12,12 +12,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from onclite device
 $(call inherit-product, device/xiaomi/onclite/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 720
+# Inherit some common ColtOS stuff.
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_onclite
+PRODUCT_NAME := colt_onclite
 PRODUCT_DEVICE := onclite
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
@@ -30,20 +29,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# riceDroid Stuff
-RISING_MAINTAINER := MrUn1corn
-WITH_GMS := false
-SUSHI_BOOTANIMATION := 720
-TARGET_BUILD_APERTURE_CAMERA := true
-TARGET_ENABLE_BLUR := true
+# Define bootanimation resolution.
+TARGET_BOOT_ANIMATION_RES := 720
+
+# Build Gapps variant.
+WITH_GAPPS := true
+
+# Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# Allow usage of custom binary linker (LD), default is false
-TARGET_KERNEL_OPTIONAL_LD := true
-
-# AudioFx
-TARGET_EXCLUDES_AUDIOFX := true
-
-# Fix uses broken libraries
-RELAX_USES_LIBRARY_CHECK := true
-PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+# Define maintainer name.
+COLT_BUILD_MAINTAINER := "JacksProject™"

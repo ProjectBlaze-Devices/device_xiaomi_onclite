@@ -493,7 +493,7 @@ PRODUCT_COPY_FILES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service \
+    android.hardware.wifi-service \
     libcld80211 \
     libqsap_sdk \
     libQWiFiSoftApCfg \

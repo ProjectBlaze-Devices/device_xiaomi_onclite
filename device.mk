@@ -449,8 +449,7 @@ PRODUCT_COPY_FILES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    camera.msm8953_shim \
-    libshim_dpmframework
+    libui_shim.vendor
 
 # System
 PRODUCT_PROPERTY_OVERRIDES += \

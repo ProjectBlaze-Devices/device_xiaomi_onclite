@@ -464,6 +464,7 @@ PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
+    hardware/lineage/compat \
     $(LOCAL_PATH)
 
 # USB HAL

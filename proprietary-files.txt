@@ -1236,22 +1236,20 @@ vendor/lib64/libqti-iopd-client.so|40155dd9b4218e317d23c23c2529cf5f709cdd9f
 vendor/lib64/vendor.qti.hardware.iop@1.0.so|a9d2a6bec613954b422a4f50fee70ec0754be65d
 vendor/lib64/vendor.qti.hardware.iop@2.0.so|0b657aa0eaedb463ef96df94b31010449c5a34a9
 
-# Perf - from fp3-user 10 8901.3.A.0134.20211116 gms-12ee4a80 release-keys
-vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|98654005d78109d44fc1b53a41803184dd35939a
-vendor/bin/energy-awareness|056792da4f0bcfc34b1f85e3ee67820d8c80627f
+# Perf - from LA.UM.10.6.2.r1-01600-89xx.0
 vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
-vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|cc8658db5e19f8e5e575fb986e7d38147e675f8d
+vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|5981341dfa9cff2f42e8ae381bb319804767a66e
+vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
 vendor/etc/msm_irqbalance.conf|3e45e1da03ab49ce9d3f855011aca00f1e417a53
-vendor/lib/libperfconfig.so|9c6280cded15fc4f174554cdc8d473a03d28e86e
-vendor/lib/libperfgluelayer.so|60aa1a8cbeb307c15a263176ed86186ab7c1b4b7
-vendor/lib/libqti-perfd-client.so|99d542254fb5d4dc3fe2f5432c5ac4845995f75b
-vendor/lib/libqti-perfd.so|d12d8902ce3d68039cb90d3a3b122fdf72d19f07
-vendor/lib/libqti-util.so|7f1b080e1d5c2e03261b80699232b3153146d215
-vendor/lib64/libperfconfig.so|12eef9b5b6239a2aef2bd6fb8cbbec47853619a2
-vendor/lib64/libperfgluelayer.so|0bf84cafdc9922ad5b40d2a4aca05bd4fcd637be
-vendor/lib64/libqti-perfd-client.so|7089fa216b06fc78127b51df6cade6518886a463
-vendor/lib64/libqti-perfd.so|e3d355239ba7e5b56cb78fbd7c543da7e809c392
-vendor/lib64/libqti-util.so|45a80be449435d277f09cc59e4a315fa86072c41
+vendor/lib/libperfgluelayer.so|242e98ea9ac9d26cc9713670f9321d027a779de1
+vendor/lib/libqti-perfd-client.so|3b73b0f221ea0e5204b1e866cfcbdf5edd9fa856
+vendor/lib/libqti-perfd.so|8dc392e4ae386d9d30d9154800ec7c183888b750
+vendor/lib/libqti-util.so|a22110a723fe4b2e001db9f9e14873e86659fc3f
+vendor/lib64/libperfconfig.so|252d05283fc7a070f0516ebd0e63f9e17b0fbf61
+vendor/lib64/libperfgluelayer.so|c0de76c678a5e7d1909910aa57873711cdd3f124
+vendor/lib64/libqti-perfd-client.so|955130c37295d3b7f196cbdc0996ff029953a158
+vendor/lib64/libqti-perfd.so|16e47121750100c6ca95498fb1d097969ffbf1ed
+vendor/lib64/libqti-util.so|acce7e3b34e80ec9b66f3e82a7612d009c8944da
 
 # Keymaster - from FP3-user 11 8901.4.A.0010 gms-f74c58a8 release-keys
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|8bdb9313f8e5faff14d73730fc206803aecd7fbf

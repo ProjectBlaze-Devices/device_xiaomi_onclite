@@ -226,6 +226,14 @@ vendor/lib/libllvd_smore.so
 vendor/lib/liboptizoom.so
 vendor/lib/libseemore.so
 vendor/lib/libtrueportrait.so
+vendor/lib/libmmcamera_llvd.so
+vendor/lib/libllvd_sw_tnr.so
+vendor/lib/libmmcamera_stillmore_lib.so
+vendor/lib/libmmcamera_trueportrait_lib.so
+vendor/lib/libubifocus.so
+vendor/lib/libmmcamera_optizoom_lib.so
+vendor/lib/libmmcamera_chromaflash_lib.so
+vendor/lib64/libubifocus.so
 vendor/lib64/libtrueportrait.so
 vendor/lib64/libbase64.so
 vendor/lib64/libcapiv2svacnn.so

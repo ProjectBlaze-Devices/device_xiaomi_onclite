@@ -1,0 +1,3 @@
+allow system_app proc_pagetypeinfo:file { open };
+allow system_app proc_vmallocinfo:file { open };
+allow system_app sysfs_zram:file { read };

@@ -5,6 +5,13 @@ audio.offload.min.duration.secs=30
 audio.offload.video=true
 ro.af.client_heap_size_kbyte=7168
 
+# Battery Saving
+ro.vendor.use_data_netmgrd=true 
+ro.vold.umsdirtyratio=20 
+ro.ril.disable.power.collapse=0 
+power.saving.mode=1
+pm.sleep_mode=1
+
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
 
@@ -17,7 +24,6 @@ persist.camera.ois.enabled=1
 persist.camera.is_mode=4
 persist.camera.stats.test=5
 camera.HAL3.enabled=1
-
 
 # Charger
 ro.charger.disable_init_blank=true

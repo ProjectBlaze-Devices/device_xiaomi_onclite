@@ -65,6 +65,9 @@ on init
     write /proc/sys/vm/page-cluster 0
     write /proc/sys/vm/swappiness 100
 
+    # Mount cgroup mount point for cpu accounting
+    mount cgroup none /acct cpuacct
+
 on post-fs
     chmod 0755 /sys/kernel/debug/tracing
 

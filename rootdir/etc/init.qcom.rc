@@ -211,6 +211,9 @@ on boot
     chown system system /sys/class/backlight/panel1-backlight/brightness
     chown system system /sys/class/backlight/panel1-backlight/max_brightness
 
+    # This initializes vendor.qti.hardware.perf service
+    setprop vendor.post_boot.parsed 1
+
     # Allow access to UFS device attributes on sysfs
     chown system system /sys/devices/platform/soc/1d84000.ufshc/auto_hibern8
     chmod 0660 /sys/devices/platform/soc/1d84000.ufshc/auto_hibern8    

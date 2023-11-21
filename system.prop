@@ -88,6 +88,9 @@ vendor.perf.gestureflingboost.enable=true
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
+# QTI PowerHal
+vendor.post_boot.parsed=1
+
 # Radio
 persist.rild.nitz_plmn=
 persist.rild.nitz_long_ons_0=

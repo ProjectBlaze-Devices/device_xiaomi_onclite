@@ -6,3 +6,7 @@ allow init property_type:file { append create getattr map open read relabelto re
 allow init vendor_data_file:file lock;
 allow init hal_audio_default:binder call;
 allow init platform_app:binder call;
+
+# /proc/last_kmsg
+allow init proc_last_kmsg:file r_file_perms;
+allow init proc_last_kmsg:file setattr;

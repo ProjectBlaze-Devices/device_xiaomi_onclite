@@ -1,5 +1,6 @@
 allow qti_init_shell proc_boot_reason:file { open read };
 allow qti_init_shell bluetooth_data_file:file r_file_perms;
+allow qti_init_shell vendor_ctl_vendor_imsrcsservice_prop:property_service set;
 
 dontaudit qti_init_shell self:capability dac_override;
 

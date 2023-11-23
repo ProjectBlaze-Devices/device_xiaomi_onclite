@@ -126,4 +126,6 @@ void vendor_load_properties()
     // Override ro.control_privapp_permissions
     property_override("ro.control_privapp_permissions", "log");
 
+    // SafetyNet workaround
+    property_override("ro.boot.verifiedbootstate", "green");
 }

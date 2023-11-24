@@ -154,7 +154,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6.vendor \
     libgui_vendor \
     libstdc++ \
-    libstdc++.vendor \
+    libstdc++_vendor \
     vendor.qti.hardware.camera.device@1.0
 
 PRODUCT_PACKAGES += \

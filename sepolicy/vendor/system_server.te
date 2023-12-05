@@ -6,6 +6,3 @@ r_dir_file(system_server, keylayout_file);
 
 # Fingerprint
 get_prop(system_server, vendor_fp_prop);
-
-# /proc/last_kmsg
-allow system_server proc_last_kmsg:file r_file_perms;

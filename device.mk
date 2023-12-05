@@ -294,6 +294,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.onclite
 
+# LMK
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.vendor.lmk.force_inkernel_lmk=true
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \

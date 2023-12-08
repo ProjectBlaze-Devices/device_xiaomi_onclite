@@ -52,6 +52,9 @@ persist.sys.fuse.transcode_enabled=false
 # DHA Tunning
 ro.config.dha_tunnable=1
 
+# Fastbootd
+ro.fastbootd.available=true
+
 # Graphics
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=0

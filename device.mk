@@ -207,6 +207,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \

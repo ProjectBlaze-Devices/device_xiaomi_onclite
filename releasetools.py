@@ -36,6 +36,13 @@ def AddImage(info, basename, dest):
   info.script.Print("Patching {} image unconditionally...".format(dest.split('/')[-1]))
   info.script.AppendExtra('package_extract_file("%s", "%s");' % (basename, dest))
 
+def FullOTA_InstallBegin(info):
+  AddImage(info, "super_empty.img", "/tmp/super_empty.img");
+  info.script.AppendExtra('package_extract_file("install/bin/flash_super_empty.sh", "/tmp/flash_super_empty.sh");')
+  info.script.AppendExtra('set_metadata("/tmp/flash_super_empty.sh", "uid", 0, "gid", 0, "mode", 0755);')
+  info.script.AppendExtra('run_program("/tmp/flash_super_empty.sh");')
+  return
+
 def OTA_InstallEnd(info):
   AddImage(info, "dtbo.img", "/dev/block/bootdevice/by-name/dtbo")
   AddImage(info, "vbmeta.img", "/dev/block/bootdevice/by-name/vbmeta")

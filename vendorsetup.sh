@@ -15,4 +15,4 @@ git clone --depth=1 https://github.com/kdrag0n/proton-clang.git -b master prebui
 git clone --depth=1 https://github.com/afterallafk/kernel_xiaomi_onclite-dynamic -b dynamic kernel/xiaomi/onclite
 
 # Clone Vendor
-git clone https://github.com/MSM8953-Tree/android_vendor_xiaomi_onclite -b 13 vendor/xiaomi/onclite
+git clone https://github.com/afterallafk/android_vendor_xiaomi_onclite -b 13 vendor/xiaomi/onclite

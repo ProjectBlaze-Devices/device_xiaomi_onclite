@@ -4,3 +4,13 @@ allow init proc_boot_reason:file r_file_perms;
 allow init vendor_data_file:file lock;
 allow init hal_audio_default:binder call;
 allow init platform_app:binder call;
+
+allow init debugfs_mmc:file { read setattr };
+allow init device:file write;
+allow init sysfs:file write;
+set_prop(init, charger_prop)
+set_prop(init, config_prop)
+set_prop(init, default_prop)
+set_prop(init, system_prop)
+set_prop(init, vendor_cgroup_follow_prop)
+set_prop(init, vendor_default_prop)

@@ -3,3 +3,4 @@ allow tee fp_data_file:dir rw_dir_perms;
 allow tee fp_data_file:file create_file_perms;
 allow tee mnt_vendor_file:dir rw_dir_perms;
 allow tee tmpfs:dir r_dir_perms;
+allow tee unlabeled:dir search;

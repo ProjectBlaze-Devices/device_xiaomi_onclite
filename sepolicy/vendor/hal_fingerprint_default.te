@@ -41,3 +41,4 @@ allow hal_fingerprint_default default_prop:file { getattr };
 allow hal_fingerprint_default system_data_root_file:dir { read };
 allow hal_fingerprint_default system_data_root_file:dir { open };
 allow hal_fingerprint_default system_data_root_file:dir { getattr };
+allow hal_fingerprint_default default_android_hwservice:hwservice_manager add;

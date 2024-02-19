@@ -165,7 +165,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6.vendor \
     libgui_vendor \
     libstdc++ \
-    libstdc++_vendor
+    libstdc++_vendor \
+    libgui_shim
 
 PRODUCT_PACKAGES += \
     GcamGoMod

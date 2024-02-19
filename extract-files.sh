@@ -64,6 +64,9 @@ function blob_fixup() {
     vendor/lib/lib_lowlight.so|/vendor/lib/lib_lowlight.so)
         "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
         ;;
+    system_ext/lib64/lib_imsvideocodec.so|/system_ext/lib64/lib_imsvideocodec.so)
+        "${PATCHELF}" --add-needed "libgui_shim.so" "${2}"
+        ;;
     esac
 }
 

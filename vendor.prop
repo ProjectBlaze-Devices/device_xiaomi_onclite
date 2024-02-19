@@ -72,6 +72,7 @@ dalvik.vm.dex2oat-threads=8
 dalvik.vm.dex2oat64.enabled=true
 
 # Display post-processing
+ro.hardware.egl=adreno
 ro.config.avoid_gfx_accel=true
 debug.sf.enable_gl_backpressure=1
 ro.vendor.display.cabl=0

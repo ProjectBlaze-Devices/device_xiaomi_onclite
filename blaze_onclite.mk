@@ -16,7 +16,6 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 # Blaze Official Stuff
-BLAZE_BUILD_TYPE := OFFICIAL
 BLAZE_MAINTAINER := ＡＤＩＴＹＡ
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true

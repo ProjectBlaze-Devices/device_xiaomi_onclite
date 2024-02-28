@@ -1,6 +1,4 @@
 allow cameraserver property_socket:sock_file { write };
-allow cameraserver vendor_default_prop:file { read };
 allow cameraserver init:unix_stream_socket { connectto };
-allow cameraserver vendor_default_prop:file { open };
 allow cameraserver system_prop:property_service { set };
 allow cameraserver vendor_default_prop:file { getattr };

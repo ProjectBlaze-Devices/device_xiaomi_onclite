@@ -7,7 +7,6 @@ allow init platform_app:binder call;
 
 allow init debugfs_mmc:file { read setattr };
 allow init device:file write;
-allow init sysfs:file write;
 set_prop(init, charger_prop)
 set_prop(init, config_prop)
 set_prop(init, default_prop)
